@@ -1,7 +1,4 @@
 <?php
-    $myFile = "user.json";
-    $fh = fopen($myFile, 'wr') or die("can't open file");
     $stringData = $_POST["data"];
-    fwrite($fh, $stringData);
-    fclose($fh)
+    $myfile = file_put_contents('user.json', $stringData.PHP_EOL , FILE_APPEND | LOCK_EX);
 ?>
