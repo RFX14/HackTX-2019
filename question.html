@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link href="styles/styles.css" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Roboto+Mono&display=swap" rel="stylesheet">
+    </head>
+    <div class="parallax"></div>
+    <h1>Questionaire!</h1>
+    <body>
+        <p1>
+            1. What city in the United States do you wish to visit?
+        </p1>
+        <input type="text" id = "city">
+        <p3> 2. What is your ideal Saturday night?</p3>
+        <select id ="saturday">
+            <option value ="Choose One">   </option>
+            <option value="night0"> Stay at home with a bottle of wine </option>
+            <option value="night1"> Catching up with friends at a coffee shop</option>
+            <option value="night2"> Dancing at a nightclub</option>
+            <option value="night3"> Going out to a baseball game </option>
+        </select>
+        <p4> 3. How much are you willing to spend?</p4>
+        <select id ="money" class="q">
+            <option value ="Choose One">   </option>
+            <option value="money0"> Stay at home with a bottle of wine </option>
+            <option value="night1"> Catching up with friends at a coffee shop</option>
+            <option value="night2"> Dancing at a nightclub</option>
+            <option value="night3"> Going out to a baseball game </option>
+            <p5> 5. </p5>
+        </select>
+        <p5>What is your sexual orientation?</p5>
+        <select id="sex" class="q">
+            <option value="Choose One"></option>
+            <option value="sex0">Lesbian</option>
+            <option value="sex1">Gay</option>
+            <option value="sex2">Bisexual</option>
+            <option value="sex3">Transgender</option>
+            <option value="sex4">Queer</option>
+            <option value="sex4">Pansexual</option>
+        </select>
+        <button onclick="getInput()">Submit</button>
+    </body>
+</html>
